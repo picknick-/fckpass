@@ -8,4 +8,6 @@ Program will output each character of input string.
 For showing particual letters you can use 
 `fckpass "password" 3 8`
 #Security 
-I recommend adding fckpass to HISTIGNORE in .bashrc or .zschrc, so nobody could lookup your passwords.
+I recommend preventing fckpass from staying in history.
+In `.bashrc` or `.zshrc` you can add 
+`alias fckpass=" fckpass"`
